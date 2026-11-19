@@ -383,6 +383,7 @@ namespace rnds
 				{ "cartLabel", &Pal::cartLabel },
 			};
 			for (auto& e : names) themeColor(e.n, P.*e.m);
+			if (themeFiles.sheetMix >= 0) P.sheetMix = themeFiles.sheetMix;
 			INK = P.ink; MUTED = P.muted; LINE = P.line; EDGE = P.edge; NAVY = P.navy; RED = P.red;
 			SHADE40 = P.shade40; SHADE45 = P.shade45; SHADE35 = P.shade35; BLACKISH = P.blackish;
 		}

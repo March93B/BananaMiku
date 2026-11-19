@@ -42,7 +42,8 @@ BOARD=${BANANA_BOARD:-$(cat /etc/banana/board 2>/dev/null)}
 VERSION=${BANANA_VERSION:-$(cat /etc/banana/version 2>/dev/null)}
 STATUS=$RUN/update-status
 UPDATES=$DATA/updates
-FEED=${BANANA_UPDATE_FEED:-https://api.github.com/repos/JorreFog/BananaLinux/releases?per_page=10}
+# (this fork's releases: March93B/BananaMiku, published by tools/release.sh)
+FEED=${BANANA_UPDATE_FEED:-https://api.github.com/repos/March93B/BananaMiku/releases?per_page=10}
 CHECK=$UPDATES/.check
 BETA_FEED=${BANANA_UPDATE_BETA_FEED:-https://bananaos-cfw.dev/beta/releases.json}
 BETA_USER=beta

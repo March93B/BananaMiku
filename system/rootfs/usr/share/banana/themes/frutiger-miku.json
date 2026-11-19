@@ -1,0 +1,46 @@
+{
+  "name": "Frutiger Miku",
+  "author": "March93B",
+  "base": "light",
+  "accent": {
+    "base": "#3a7be7",
+    "light": "#d2e1f9",
+    "dark": "#0c2d64",
+    "band": "#6e9eed",
+    "low": "#195ccd"
+  },
+  "colors": {
+    "screenBg": "#eef3fb",
+    "screenBand": "#00000000",
+    "screenFrame": "#00000000",
+    "panelBand": "#ffffff99",
+    "panelBody": "#f1f6fd66",
+    "panelLow": "#c3d0e680",
+    "chipBand": "#ffffff99",
+    "chipBody": "#f1f6fd66",
+    // the bottom screen's bubble at the top sheet's 30%
+    "bubbleBand": "#ffffff4d",
+    "bubbleBody": "#f6f9ff4d",
+    "bubbleLow": "#d0daea4d",
+    "sheetBase": "#3a7be74d",
+    "sheetHi": "#ffffff40",
+    "sheetLo": "#0c2d641a",
+    "trackBg": "#dbe4f24d",
+    "trackShade": "#0c2d6426",
+    "railBg": "#dbe4f266",
+    "frameBg": "#f1f6fd66",
+    "ditherA": "#00000000",
+    "ditherB": "#00000000",
+    "ink": "#252e3d",
+    "muted": "#65738a",
+    "line": "#9aaac4",
+    "edge": "#2e394a",
+    "rule": "#d2dcec"
+  },
+  "sheetMix": 0,
+  "background": {
+    "top": "frutiger-miku/top.png",
+    "bottom": "frutiger-miku/bottom.png",
+    "dither": false
+  }
+}

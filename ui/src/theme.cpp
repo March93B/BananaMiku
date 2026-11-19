@@ -246,6 +246,12 @@ namespace banana
 		f.wallTop = themeImage(dir, kv["background.top"]);
 		f.wallBottom = themeImage(dir, kv["background.bottom"]);
 		f.dither = kv["background.dither"] != "false";
+		if (!kv["sheetMix"].empty())
+		{
+			char* end = nullptr;
+			float v = strtof(kv["sheetMix"].c_str(), &end);
+			if (end && *end == 0) f.sheetMix = std::min(1.0f, std::max(0.0f, v));
+		}
 		for (auto& e : kv)
 		{
 			if (e.first.compare(0, 6, "icons.") == 0) { std::string p = themeImage(dir, e.second); if (!p.empty()) f.icons[e.first.substr(6)] = p; }

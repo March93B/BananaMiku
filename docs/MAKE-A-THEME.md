@@ -65,6 +65,9 @@ the screen, the text, the panels, the shelf, the box art, the keyboard. Colours 
 The same colours style **Settings and the on-screen keyboard**, so a theme with a pale background wants its text
 colour dark, or the settings will be hard to read.
 
+The top screen's sheet is tinted with the selected system's colour (30% of it on a light base, 34% on a dark one).
+`"sheetMix": 0` keeps it `sheetBase` alone for every system; any number from 0 to 1 sets how much it takes.
+
 ### Your own pictures, fonts and sounds
 
 A colour theme can name its own files too:

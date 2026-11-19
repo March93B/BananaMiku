@@ -23,7 +23,9 @@ phosphor-terminal, swiss-poster and vinyl-lounge. Open one in the Theme Studio t
         "screenBg": "#0b1d2a",
         "ink": "#e4f6ff"
       },
-      "background": {              pictures behind the two screens (PNG or JPEG, scaled to fill: 1024 x 768 on
+      "sheetMix": 0,               how much of the selected system's colour the top screen's sheet takes, 0 to 1
+                                   (0: always sheetBase alone, the same for every system; else 0.34 dark, 0.3 light)
+      "background": {                pictures behind the two screens (PNG or JPEG, scaled to fill: 1024 x 768 on
         "top": "mine/top.png",     the RG DS Plus, 640 x 480 on the RG DS), and the screens' dot pattern
         "bottom": "mine/bottom.png",
         "dither": false
